@@ -1,0 +1,9 @@
+{
+	"name": "importacao-exportacao-df",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "e96c7cc8-2efb-4048-ab2f-38baa7de71f3",
+		"tenantId": "19d9bbbe-6aa9-4f9c-b687-4392a4201952"
+	}
+}
