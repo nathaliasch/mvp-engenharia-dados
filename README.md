@@ -39,9 +39,17 @@ No Data Factory criei os conjuntos de dados, o fluxo de dados e o pipeline:
 
 ## Modelagem
 
-No ambiente do Databricks, com base na arquitetura medalhão, criei os schemas bronze, silver e gold para organizar os dados e melhorar incremental e progressiva a estrutura e a qualidade destes.
+No ambiente do Databricks, com base na arquitetura medalhão, criei os schemas bronze, silver e gold para organizar os dados e melhorar incremental e progressiva a estrutura e a qualidade destes no Lakehouse.
 
-
+![image](https://github.com/nathaliasch/mvp-engenharia-dados/assets/108892573/028392e5-4f58-4dc9-9f54-a139b4dc5360)
 
 ### Camada Bronze
+
+Nessa camada os dados estão brutos.
+
+### Camada Silver
+
+Aqui foram excluídos dados duplicados, alterados os nomes das colunas, transformados os valores de colunas de string para decimal e outros tratamentos que podem ser observados nos notebooks.
+
+
 
