@@ -49,7 +49,12 @@ Nessa camada os dados estão brutos.
 
 ### Camada Silver
 
-Aqui foram excluídos dados duplicados, alterados os nomes das colunas, transformados os valores de colunas de string para decimal e outros tratamentos que podem ser observados nos notebooks.
+Aqui foram excluídos os dados duplicados, alterados os nomes das colunas, transformados os valores de colunas de string para decimal e outros tratamentos que podem ser observados nos notebooks que foram anexados. Neste exemplo, foram excluídas as colunas no idioma espanhol e inglês da tabela d_nomenclatura_mercosul.
+
+![image](https://github.com/nathaliasch/mvp-engenharia-dados/assets/108892573/6ba6578c-28e5-4d33-bfae-9a8224b8f621)
+
+
+
 
 
 
