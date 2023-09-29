@@ -2,9 +2,10 @@
 
 ## Optei por utilizar o Microsoft Azure. E a partir de dados sobre exportação extraídos do Kaggle será analisado:
 
-### 1. Evolução das exportações ao longo do tempo
-### 2. Quais as principais mercadorias exportadas
-### 3.
+### 1. Evolução das exportações ao longo do tempo.
+### 2. Qual a principal mercadorias exportada.
+### 3. Quais as vias mais utilizadas para exportação e importação no país.
+### 4. Quas as unidades federattivas mais ativas
 
 # Detalhamento
 
@@ -32,8 +33,15 @@ E também o DATA FACTORY:
 
 ![image](https://github.com/nathaliasch/mvp-engenharia-dados/assets/108892573/2d78fdc9-667a-4bbc-91bc-a4a08b840af3)
 
-O passo seguinte foi a criação dos conjuntos de dados, fluxo de dados e pipeline:
+No Data Factory criei os conjuntos de dados, o fluxo de dados e o pipeline:
 
 ![image](https://github.com/nathaliasch/mvp-engenharia-dados/assets/108892573/f00766c5-85ef-4b20-9c5d-f6286293a169)
 
+## Modelagem
+
+No ambiente do Databricks, com base na arquitetura medalhão, criei os schemas bronze, silver e gold para organizar os dados e melhorar incremental e progressiva a estrutura e a qualidade destes.
+
+
+
+### Camada Bronze
 
