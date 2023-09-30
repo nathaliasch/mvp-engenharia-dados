@@ -47,19 +47,33 @@ No ambiente do Databricks, com base na arquitetura medalhão, criei os schemas b
 
 Nessa camada os dados estão brutos.
 
+![image](https://github.com/nathaliasch/mvp-engenharia-dados/assets/108892573/dedc5ab9-6bbf-4458-b089-822a210e0c5c)
+
 ### Camada Silver
 
-Aqui foram excluídos os dados duplicados, alterados os nomes das colunas, transformados os valores de colunas de string para decimal e outros tratamentos que podem ser observados nos notebooks que foram anexados. 
-Neste exemplo, foram excluídas as colunas no idioma espanhol e inglês da tabela CO_NCM.
+Aqui foram excluídos os dados duplicados que foram encontrados em algumas tabelas, alterados os nomes das colunas, transformadas as colunas de valor de string para decimal e outros tratamentos que podem ser observados nos notebooks que foram anexados. 
+
+![image](https://github.com/nathaliasch/mvp-engenharia-dados/assets/108892573/3b65401b-dd6f-481f-99b6-a50cb93e36ae)
+
+Neste exemplo aqui foram excluídas as colunas no idioma espanhol e inglês da tabela CO_NCM.
 
 ![image](https://github.com/nathaliasch/mvp-engenharia-dados/assets/108892573/6ba6578c-28e5-4d33-bfae-9a8224b8f621)
 
 ### Camada Gold
 
 Para adotar o esquema estrela aqui foram criadas as tabelas dimensões a partir das tabelas CO_NCM, CO_PAIS, CO_UNID, CO_URF, CO_VIA e NCM_UNIDADE. 
-Foi criada a tabela fato f_exportacao_importacao_gold a partir do UNION ALL das tabelas imp_completa_silver e exp_completa_silver.
 
+Foi criada também a tabela fato f_exportacao_importacao_gold a partir do UNION ALL das tabelas imp_completa_silver e exp_completa_silver.
 
+![image](https://github.com/nathaliasch/mvp-engenharia-dados/assets/108892573/3a0c1724-9595-4c9f-9d29-aca6f4dd11c0)
+
+## Análise dos dados
+
+Após todo o processo de ETL o objetivo foi criar um dashboard no Power BI para responder os questionamentos.
+
+Foram feitos os relacionamentos.
+
+E criado o dashboard.
 
 
 
