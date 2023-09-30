@@ -71,9 +71,16 @@ Foi criada também a tabela fato f_exportacao_importacao_gold a partir do UNION 
 
 Após todo o processo de ETL o objetivo foi criar um dashboard no Power BI para responder os questionamentos.
 
+![image](https://github.com/nathaliasch/mvp-engenharia-dados/assets/108892573/ba96276b-2280-4922-87bb-5e92bff318d2)
+
 Foram feitos os relacionamentos.
 
+
+![image](https://github.com/nathaliasch/mvp-engenharia-dados/assets/108892573/9ac61bb9-35a7-488d-b96b-cc03ca70c612)
+
 E criado o dashboard.
+
+![image](https://github.com/nathaliasch/mvp-engenharia-dados/assets/108892573/7c904d92-5cc8-414f-9937-f804a818e21c)
 
 
 
