@@ -50,6 +50,8 @@ No Data Factory criei os conjuntos de dados, o fluxo de dados e o pipeline:
 
 E fiz a conexão com o AZURE DATA STUDIO onde eu poderia visualizar e tratar as tabelas.
 
+![image](https://github.com/nathaliasch/mvp-engenharia-dados/assets/108892573/c954301d-6e5f-4d82-902d-f0d2e69336a9)
+
 ## Modelagem
 
 Optei por fazer o tratamento dos dados no ambiente do Databricks, com base na arquitetura medalhão. 
