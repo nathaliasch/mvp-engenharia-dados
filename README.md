@@ -49,9 +49,15 @@ Nessa camada os dados estão brutos.
 
 ### Camada Silver
 
-Aqui foram excluídos os dados duplicados, alterados os nomes das colunas, transformados os valores de colunas de string para decimal e outros tratamentos que podem ser observados nos notebooks que foram anexados. Neste exemplo, foram excluídas as colunas no idioma espanhol e inglês da tabela d_nomenclatura_mercosul.
+Aqui foram excluídos os dados duplicados, alterados os nomes das colunas, transformados os valores de colunas de string para decimal e outros tratamentos que podem ser observados nos notebooks que foram anexados. 
+Neste exemplo, foram excluídas as colunas no idioma espanhol e inglês da tabela CO_NCM.
 
 ![image](https://github.com/nathaliasch/mvp-engenharia-dados/assets/108892573/6ba6578c-28e5-4d33-bfae-9a8224b8f621)
+
+### Camada Gold
+
+Para adotar o esquema estrela aqui foram criadas as tabelas dimensões a partir das tabelas CO_NCM, CO_PAIS, CO_UNID, CO_URF, CO_VIA e NCM_UNIDADE. 
+Foi criada a tabela fato f_exportacao_importacao_gold a partir do UNION ALL das tabelas imp_completa_silver e exp_completa_silver.
 
 
 
