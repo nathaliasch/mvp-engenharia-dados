@@ -80,7 +80,7 @@ Foram feitos os relacionamentos.
 
 E criado o dashboard.
 
-![image](https://github.com/nathaliasch/mvp-engenharia-dados/assets/108892573/7c904d92-5cc8-414f-9937-f804a818e21c)
+![image](https://github.com/nathaliasch/mvp-engenharia-dados/assets/108892573/60223a78-f0ab-4ba0-9c24-8843374693e4)
 
 
 
